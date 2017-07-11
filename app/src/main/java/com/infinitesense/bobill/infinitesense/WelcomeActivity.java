@@ -18,7 +18,7 @@ public class WelcomeActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             switch (msg.what){
                 case GO_HOME:
-                    go_home();
+                    go_home();//jump to HomePage
                     break;
                 case GO_GUIDE:
                     go_guide();
