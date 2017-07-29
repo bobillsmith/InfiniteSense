@@ -21,7 +21,7 @@ public class WelcomeActivity extends AppCompatActivity {
                     go_home();//jump to HomePage
                     break;
                 case GO_GUIDE:
-                    go_guide();
+                    go_guide();//jump to GuidePage
                     break;
             }
         }
